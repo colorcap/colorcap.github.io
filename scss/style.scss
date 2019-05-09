@@ -418,7 +418,8 @@ textarea:focus {
 /* :: 5.0 Header Area CSS */
 
 .header-area {
-    position: relative;
+    position: fixed;
+    background: #ffffff;
     z-index: 100;
     width: 100%;
     .top-header {
@@ -467,6 +468,7 @@ textarea:focus {
     }
     .cryptos-main-menu {
         position: relative;
+        background: white;
         width: 100%;
         z-index: 100;
         height: 125px;
@@ -495,6 +497,8 @@ textarea:focus {
                 }
             }
         }
+
+    
         .classynav ul li .dropdown li a,
         .classynav ul li .megamenu li a {
             font-size: 14px;
@@ -517,7 +521,7 @@ textarea:focus {
                     width: 265px;
                     height: 35px;
                     background-color: $bg-gray;
-                    position: relative;
+                    position: fixed;
                     z-index: 1;
                     @media #{$breakpoint-lg} {
                         width: 220px;
