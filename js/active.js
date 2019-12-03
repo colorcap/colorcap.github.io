@@ -25,11 +25,11 @@
             margin: 0,
             loop: true,
             nav: true,
-            navText: ['Prev', 'Next'],
+            navText: ["<img src='images/prev.png'>","<img src='images/next.png'>"],
             dots: true,
             autoplay: true,
-            autoplayTimeout: 5000,
-            smartSpeed: 1000
+            autoplayTimeout: 6000,
+            smartSpeed: 2000
         });
 
         welcomeSlide.on('translate.owl.carousel', function () {
@@ -78,8 +78,8 @@
             navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
             dots: true,
             autoplay: true,
-            autoplayTimeout: 2000,
-            smartSpeed: 1000
+            autoplayTimeout: 3000,
+            smartSpeed: 1500
         });
     }
 

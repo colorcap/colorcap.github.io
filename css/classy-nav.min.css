@@ -449,7 +449,7 @@ img {
 }
 
 .breakpoint-off .classynav ul li .dropdown {
-    width: 180px;
+    width: 400px; /* to change size of nevigationn Dropdown */
     position: absolute;
     background-color: #fff;
     top: 120%;
